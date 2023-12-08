@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: bynder_insights_lnd
+    tables:
+      - name: account

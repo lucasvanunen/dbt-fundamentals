@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: test_python
+    config:
+      packages:
+        - scikit-learn
+        
+  - name: dat_similarity_model 
+    config:
+      packages:
+        - scikit-learn
+    
+  - name: dim_dat_similarity_model 
+    config:
+      packages:
+        - scikit-learn
+
+  - name: dim_dat_adoption_analysis 
+    config:
+      packages:
+        - scipy
+  - name: fact_module_association_rules 
+    config:
+      packages:
+        - mlxtend
+
+
+        
